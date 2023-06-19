@@ -1,0 +1,58 @@
+The decision tree for the dataset using ID3 algorithm is
+ Outlook
+   sunny
+     Humidity
+       high
+         no
+       normal
+         yes
+   rain
+     Wind
+       strong
+         no
+       weak
+         yes
+   overcast
+     yes
+The test instance: ['sunny', 'hot', 'high', 'weak', 'no']
+The label for test instance:
+no
+The test instance: ['sunny', 'hot', 'high', 'strong', 'no']
+The label for test instance:
+no
+The test instance: ['overcast', 'hot', 'high', 'weak', 'yes']
+The label for test instance:
+yes
+The test instance: ['rain', 'mild', 'high', 'weak', 'yes']
+The label for test instance:
+yes
+The test instance: ['rain', 'cool', 'normal', 'weak', 'yes']
+The label for test instance:
+yes
+The test instance: ['rain', 'cool', 'normal', 'strong', 'no']
+The label for test instance:
+no
+The test instance: ['overcast', 'cool', 'normal', 'strong', 'yes']
+The label for test instance:
+yes
+The test instance: ['sunny', 'mild', 'high', 'weak', 'no']
+The label for test instance:
+no
+The test instance: ['sunny', 'cool', 'normal', 'weak', 'yes']
+The label for test instance:
+yes
+The test instance: ['rain', 'mild', 'normal', 'weak', 'yes']
+The label for test instance:
+yes
+The test instance: ['sunny', 'mild', 'normal', 'strong', 'yes']
+The label for test instance:
+yes
+The test instance: ['overcast', 'mild', 'high', 'strong', 'yes']
+The label for test instance:
+yes
+The test instance: ['overcast', 'hot', 'normal', 'weak', 'yes']
+The label for test instance:
+yes
+The test instance: ['rain', 'mild', 'high', 'strong', 'no']
+The label for test instance:
+no
